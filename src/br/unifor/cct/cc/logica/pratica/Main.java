@@ -8,6 +8,7 @@ package br.unifor.cct.cc.logica.pratica;
 public class Main {
 
 	public static void main(String[] args) {
+		//Q01
 		int [] matriculas = new int [1020, 1042, 1112, 1132, 1152, 1201, 1213, 1232, 1256, 1271];
 		String [] nomes = new String [Ailton, Marlos, Rebeca, Marco, Jane, Pedro, Raquel, Paulo, Vitor, Mara];
 		doubles [][] notas = {{7.5 8.9 6.5}, {8.2 7.3 9.4} , {10.0 9.6 7.1} , 
