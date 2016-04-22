@@ -32,5 +32,16 @@ public class Main {
 			System.out.println();
 		}
 	}
+	
+	MediaAlunos (notas);
+	static double[] MediaAlunos (double [][]notas){
+		double [] media = new double [10];
+		for (int i = 0; i < media.length; i++) {
+			media[i] = (notas[i][0] + notas[i][1] + notas[i][2])/3;
+			System.out.println(media[i]);
+		}
+		return media;
+	}
+
 
 }
