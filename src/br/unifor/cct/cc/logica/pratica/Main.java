@@ -18,7 +18,7 @@ public class Main {
 
 	}
 	
-	//Q02
+	//Q02 e Q03
 	ImprimirTabular (matriculas, nomes, notas);
 	}
 
