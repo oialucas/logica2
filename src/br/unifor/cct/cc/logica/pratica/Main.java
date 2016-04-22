@@ -17,5 +17,20 @@ public class Main {
 		
 
 	}
+	
+	//Q02
+	ImprimirTabular (matriculas, nomes, notas);
+	}
+
+	static void ImprimirTabular (int []matriculas, String []nomes, double [][] notas ){
+		for (int i = 0; i < notas.length; i++) {
+			System.out.printf("%d  %s\t", matriculas[i], nomes[i]);
+			for (int j = 0; j < 3; j++) {
+				System.out.printf(" %4.1f", notas[i][j]);
+				
+			}
+			System.out.println();
+		}
+	}
 
 }
